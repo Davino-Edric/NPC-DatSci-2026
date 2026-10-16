@@ -1,0 +1,16 @@
+[project]
+name = "npc-datsci-2026"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "birdnet>=1.1.1",
+    "ipywidgets>=8.1.9",
+    "kaggle>=2.2.4",
+    "kagglehub>=1.0.2",
+    "librosa>=1.0.0",
+    "matplotlib>=3.11.2",
+    "noisereduce>=3.0.3",
+    "soundfile>=0.14.0",
+]
