@@ -15,6 +15,7 @@ dependencies = [
     "librosa>=1.0.0",
     "matplotlib>=3.11.2",
     "noisereduce>=3.0.3",
+    "seaborn>=0.13.2",
     "soundfile>=0.14.0",
     "tqdm>=4.70.1",
 ]
