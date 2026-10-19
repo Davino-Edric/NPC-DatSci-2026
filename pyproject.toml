@@ -17,5 +17,7 @@ dependencies = [
     "noisereduce>=3.0.3",
     "seaborn>=0.13.2",
     "soundfile>=0.14.0",
+    "tensorflow>=2.21.0",
+    "torch>=2.14.1",
     "tqdm>=4.70.1",
 ]

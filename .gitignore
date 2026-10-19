@@ -12,3 +12,5 @@ data/train/audio
 data/test/*
 *.flac
 features/cache
+features/cache_v3
+features/cache_v2
