@@ -1786,17 +1786,27 @@ dependencies = [
     { name = "certifi" },
     { name = "ipykernel" },
     { name = "ipywidgets" },
+    { name = "joblib" },
     { name = "kaggle" },
     { name = "kagglehub" },
     { name = "librosa" },
     { name = "matplotlib" },
     { name = "noisereduce" },
+    { name = "numpy" },
+    { name = "pandas" },
+    { name = "scikit-learn" },
+    { name = "scipy" },
     { name = "seaborn" },
     { name = "soundfile" },
     { name = "tensorflow" },
     { name = "timm" },
     { name = "torch" },
     { name = "tqdm" },
+]
+
+[package.dev-dependencies]
+dev = [
+    { name = "pyflakes" },
 ]
 
 [package.metadata]
@@ -1806,11 +1816,16 @@ requires-dist = [
     { name = "certifi", specifier = ">=2026.7.22" },
     { name = "ipykernel", specifier = ">=7.4.0" },
     { name = "ipywidgets", specifier = ">=8.1.9" },
+    { name = "joblib", specifier = ">=1.6.0" },
     { name = "kaggle", specifier = ">=2.2.4" },
     { name = "kagglehub", specifier = ">=1.0.2" },
     { name = "librosa", specifier = ">=1.0.0" },
     { name = "matplotlib", specifier = ">=3.11.2" },
     { name = "noisereduce", specifier = ">=3.0.3" },
+    { name = "numpy", specifier = ">=2.5.4" },
+    { name = "pandas", specifier = ">=3.0.6" },
+    { name = "scikit-learn", specifier = ">=1.9.1" },
+    { name = "scipy", specifier = ">=1.18.1" },
     { name = "seaborn", specifier = ">=0.13.2" },
     { name = "soundfile", specifier = ">=0.14.0" },
     { name = "tensorflow", specifier = ">=2.21.0" },
@@ -1818,6 +1833,9 @@ requires-dist = [
     { name = "torch", specifier = ">=2.14.1" },
     { name = "tqdm", specifier = ">=4.70.1" },
 ]
+
+[package.metadata.requires-dev]
+dev = [{ name = "pyflakes", specifier = ">=4.0.3" }]
 
 [[package]]
 name = "numba"
@@ -2542,6 +2560,15 @@ source = { registry = "https://pypi.org/simple" }
 sdist = { url = "https://files.pythonhosted.org/packages/da/a8/c5fdbeee588bb8ada9458774f43adf1bdd30bd59157055142183e769a024/pycparser-3.11.tar.gz", hash = "sha256:d875f09c3507d00e1aba0eecc6dcadc1352f30fff09dc6bff2f1c2935e97c2bc", size = 113796, upload-time = "2026-10-09T12:56:59.539Z" }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/90/11/0e6f11117525ff0eec40ebac3d313376f102df93ca44ad9e893ee85e4f89/pycparser-3.11-py3-none-any.whl", hash = "sha256:51d5a8ba2be0bbe440b99d2112604c95bbbc3c2748a64260186c541e1729cd80", size = 51178, upload-time = "2026-10-09T12:56:58.131Z" },
+]
+
+[[package]]
+name = "pyflakes"
+version = "4.0.3"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/2c/1b/3ba8bd62723cfe1b651c4e4b89b33767fce7a08bb800491cf1d3dd3a7716/pyflakes-4.0.3.tar.gz", hash = "sha256:94762a3a5a343a79b28754f96c554bce057a592a4896907d73f0369fe824e053", size = 67126, upload-time = "2026-10-07T18:57:25.327Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/44/b0/554d720d71083ccd24ba2f376c048544c073570e7bb18b34d769cef77f66/pyflakes-4.0.3-py2.py3-none-any.whl", hash = "sha256:330ba92b8c1db2eb0b8f4068f6c58674e2649a99e334769aa50e3e9c5b11c23a", size = 66250, upload-time = "2026-10-07T18:57:24.403Z" },
 ]
 
 [[package]]
